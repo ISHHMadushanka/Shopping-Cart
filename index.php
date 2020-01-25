@@ -1,7 +1,7 @@
 <?php
 
-
 require_once ("./php/component.php");
+
 
 ?>
 
@@ -27,13 +27,14 @@ require_once ("./php/component.php");
 <div class="container">
   <div class="row text-center py-5">
   <?php
-  // component(productname:"Product 1", productprice:599, productimg:"./upload/product9.jpg");
+   component("Product 1", 599, "./upload/product9.jpg");
 
-  // component(productname:"Product 2", productprice:599, productimg:"./upload/product9.jpg");
+   component("Product 1", 99, "./upload/product8.jpg");
 
-  // component(productname:"Product 3", productprice:599, productimg:"./upload/product9.jpg");
+   component("Product 1", 59, "./upload/product5.jpg");
 
-  // component(productname:"Product 4", productprice:599, productimg:"./upload/product9.jpg");
+   component("Product 1", 499, "./upload/product6.jpg");  
+
 
 ?>   
   </div>
